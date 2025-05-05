@@ -5,6 +5,9 @@ var VaraibleSize=50;
 var Testcount=0;
 
 function Fib(n){
+    if(n==0){
+        return 0;
+    }
     if(n<=2){
         return 1;
     }
