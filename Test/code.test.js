@@ -1,4 +1,5 @@
-import {Fib2} from "../code.js";
+import pkg from '../code.js';
+const {Fib2} = pkg;
 import jsc from 'jsverify';
 var MaxNumiter=100;
 var VaraibleSize=50;
