@@ -29,7 +29,7 @@ Sources
 
 Yes the time complexity of the classical fibbonachi algorithm and the tail recursive version do have different asymtotic complexities. 
 
-In the classical implementation, the fibbonachi algorithm has a time complexity of around $\theta(2^n)$. This is because each call stack, opens up exponentially into other calls until the base case is reached. Thing of a classical recurssion tree, that's what's happening here.
+In the classical implementation, the fibbonachi algorithm has a time complexity of around $\theta(2^n)$. This is because each call stack, opens up exponentially into other calls until the base case is reached. Think of a classical recurssion tree, that's what's happening here.
 
 However in the tail recursive implementation you are only ever opening one stack at a time. This happens right at the end of the algorithm, and the arithmetic is handeled at least in my case in the parameters. This stop's it from having to open up more stacks. Overall giving it a linear time complexity of $\theta(n)$.
 
