@@ -1,5 +1,5 @@
 const {Fib2} = pkg;
-import pkg from 'tail-recursion-AndrewThomas7/code.js';
+import pkg from './code.js';
 import jsc from 'jsverify';
 var MaxNumiter=100;
 var VaraibleSize=50;
