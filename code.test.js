@@ -12,7 +12,6 @@ function Fib(n){
         return Fib(n-2)+Fib(n-1)
     }
 }
-
 for(var x=0; x<MaxNumiter; x++){
     var RandomTestNumber= Math.floor(Math.random(0,VaraibleSize))
 
