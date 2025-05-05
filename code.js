@@ -7,5 +7,5 @@ export function Fib2(n){
            return Fib2_(n-1,Fib+Fibold,Fib,Fib+Fibold)
         }
     }
-    return Fib2_(n,1,1,0)
+    return Fib2_(n,1,1,1)
 }
