@@ -12,6 +12,15 @@ the function and run automatically when you commit through a GitHub action.
 Hint: It may help to have a look at the iterative dynamic programming
 implementation. What changes between iterations of the loop?
 
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”-Andrew Thomas
+
+Sources
+
+#1-
+
 ## Runtime Analysis
 
 Is the asymptotic complexity of tail-recursive Fibonacci different from the
